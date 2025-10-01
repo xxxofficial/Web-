@@ -1,0 +1,33 @@
+PROGRAM DataUser(INPUT, OUTPUT);
+USES
+  DOS;
+
+FUNCTION GetQueryStringParameter(Key: STRING): STRING;
+VAR
+  QueryString: STRING;
+  StartPos, EndPos: INTEGER;
+BEGIN
+  QueryString := GetEnv('QUERY_STRING');
+  StartPos := Pos(Key + '=', QueryString);
+  IF StartPos = 0
+  THEN
+    BEGIN
+      GetQueryStringParameter := '';
+    EXIT;
+  END;
+  StartPos := StartPos + Length(Key) + 1;
+  EndPos := Pos('&', Copy(QueryString, StartPos, Length(QueryString)));
+  IF EndPos = 0 THEN
+    EndPos := Length(QueryString) + 1
+  ELSE
+    EndPos := StartPos + EndPos - 1;
+  GetQueryStringParameter := Copy(QueryString, StartPos, EndPos - StartPos);
+END;
+
+BEGIN
+  WRITELN('Content-Type: text/plain');
+  WRITELN;
+  WRITELN('First Name: ', GetQueryStringParameter('first_name'));
+  WRITELN('Last Name: ', GetQueryStringParameter('last_name'));
+  WRITELN('Age: ', GetQueryStringParameter('age'))
+END.
