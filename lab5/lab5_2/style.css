@@ -1,0 +1,92 @@
+body {
+    font-family: "Golos Text", sans-serif;
+    background-color: white;
+    color: #222222;
+}
+
+.sidebar {            
+    background-color: #FFFFFF;    
+}
+
+
+.ava {
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+}
+
+.nameMain {
+    font-size: 14px;
+    font-weight: 500;
+    flex-grow: 1;
+}
+
+.pen {
+    width: 24px;
+    height: 24px;
+}
+
+.photo1 img {
+    width: 100%;
+    max-width: 474px;
+    object-fit: cover;
+}
+
+.reaction {
+    width: 100%;
+    max-width: 474px;
+}
+
+.reaction button {
+    background-color: rgba(34, 34, 34, 0.05);
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.text {
+    width: 100%;
+    max-width: 474px;
+}
+
+.text1 {
+    font-size: 15px;
+    font-weight: 400;
+    max-height: 40px;
+}
+
+.text2 {
+    color: rgba(34, 34, 34, 0.5);
+    font-size: 15px;
+}
+
+.text3 {
+    font-size: 14px;
+    color: rgba(34, 34, 34, 0.5);
+}
+
+.avatar2 {
+    max-width: 474px;
+    border-radius: 10px;
+}
+
+.nameMain2 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.Photo {
+    width: 100%;
+    max-width: 474px;
+}
+
+.mainPhoto2 {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.photoLiza {
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+}
