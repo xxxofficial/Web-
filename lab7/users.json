@@ -1,0 +1,9 @@
+[
+  { "id": 1, "name": "Max", "registered_at": 1685000000 },
+  { "id": 2, "name": "Anton", "registered_at": 1685100000 },
+  { "id": 3, "name": "Elena", "registered_at": 1685200000 },
+  { "id": 4, "name": "Igor", "registered_at": 1685300000 },
+  { "id": 5, "name": "Svetlana", "registered_at": 1685400000 },
+  { "id": 6, "name": "Dmitry", "registered_at": 1685500000 }
+]
+
