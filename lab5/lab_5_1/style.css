@@ -1,0 +1,54 @@
+.container {
+    background-color: white;
+    font-family: "Golos Text";
+}
+
+.text {
+    display: inline-block;
+}
+
+.form {
+    width: 345px;
+}
+ 
+.about {
+    color: #222222;
+    font-family: "Golos Text";
+    font-size: 15px;
+    margin-top: 16px;
+    margin-bottom: 5px;
+}
+
+.title {
+    font-size: 140px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.inputOne {
+    width: 100%;
+    height: 44px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #f2f3f5;
+}
+
+.hint-text {
+    color: #808080;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.buttonIn {
+    width: 100%;
+    height: 48px;
+    margin: 20px 0;
+    background-color: #222222;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Golos Text";
+    border-radius: 10px;
+}
